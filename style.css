@@ -1,0 +1,185 @@
+#header{
+    display: flex;
+    align-items: center;
+    height:90px;
+    padding: 0 20px;
+    gap:50px;
+    background-color: #f4f4f4 ;
+}
+#titre{ 
+    margin:60px;
+    font-family: 'Oleo Script';
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 700;
+    color:#A10550;
+}
+#list{
+    display:flex;
+    align-items: center;  
+    display: flex;  
+    justify-content: center;
+}
+#list li{
+    list-style: none;
+    padding:0 15px;
+    font-size: 20px;
+}
+#list li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#202020;
+    padding:10px;
+    display: block;
+    transform: 0.3s ease ;
+}
+#list li a:hover  {
+    color:#f60b7d;
+}
+#rech{
+    display:inline-flex;
+    padding: 0 20px 0 25%; 
+}
+#search{
+    width: 24px;
+    height: 24px;
+    padding:10px;
+}
+#world{
+    width: 24px;
+    height: 24px;
+    padding:10px;
+}
+
+/*Footer*/
+.main_footer {
+    background-color: #f599c4;
+    color: #fff;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCEFF7;
+    padding: 30px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.liste-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.liste-icon p {
+    font-size: 1em;
+    color: #555;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.liste-icon p .icon {
+    font-size: 1.5em;
+    margin-right: 8px;
+    color: #8B0000;
+    line-height: 1;
+}
+
+
+/*How Can We Help?*/ 
+.footer-help{
+    padding:20px;
+}
+
+.footer-help,
+.footer-produit,
+.abonnement,
+.contact {
+    flex: 1; /* Permet aux colonnes de grandir et rétrécir */
+    min-width: 180px; /* Largeur minimale avant de passer à la ligne (ajustez si besoin) */
+    max-width: 250px; /* Pour éviter que les colonnes soient trop larges sur grands écrans */
+    margin: 0 15px 30px 15px; /* Marges pour l'espacement entre les colonnes et en bas */
+    text-align: left; /* Texte aligné à gauche comme dans l'image finale */
+    padding: 0; /* Retirer le padding de .footer-help, il est géré par .container.footer-grid */
+}
+
+.footer-help h4,
+.footer-produit h4,
+.abonnement h4,
+.contact h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    font-weight: bold;
+}
+.footer-help ul,
+.footer-produit ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-help ul li,
+.footer-produit ul li {
+    margin-bottom: 10px;
+}
+
+.footer-help ul li a,
+.footer-produit ul li a,
+.abonnement p,
+.contact p {
+    text-decoration: none;
+    color: #e0e0e0; /* Texte gris clair */
+    font-size: 0.95em;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+.footer-help ul li a:hover,
+.footer-produit ul li a:hover {
+    color: #b50d61;
+}
+
+.abonnement p {
+    margin-bottom: 15px;
+}
+.footer-email {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    color: #ffffff;
+    flex-grow: 1; /* Permet à l'input de prendre l'espace */
+    min-width: 150px;
+    box-sizing: border-box;
+    border:none;
+}
+.footer-email button{
+    border-color: rgb(214, 209, 209);
+    cursor:pointer;
+    background-color:transparent;
+    color: rgb(214, 209, 209);;
+}
+.footer-email button:hover {
+    background-color: #480b2c;}
+
+.footer-bottom {
+    color: #CBCBCB;
+    padding: 20px 40px;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
